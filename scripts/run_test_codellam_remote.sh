@@ -12,6 +12,7 @@
 # WANDB__SERVICE_WAIT=300
 CUDA_VISIBLE_DEVICES=0 python3 ../main.py \
 --model_name_or_path "codellama/CodeLlama-7b-hf" \
+--output_dir "/home/l_unjie/VUL_LLM/tmp"
 --dataset "codealpaca" \
 --tuning_method "prompt-tuning" \
 --batch_size 1 \
