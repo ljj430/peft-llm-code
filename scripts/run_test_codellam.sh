@@ -12,6 +12,7 @@ python3 -m wandb login 722f6e2de6b117fb0368a2a882b866fed379eb48
 WANDB__SERVICE_WAIT=300
 CUDA_VISIBLE_DEVICES=0 python ../main.py \
 --model_name_or_path "/home/l_unjie/HF_models/CodeLlama-7b-hf" \
+--output_dir "/home/l_unjie/VUL_LLM/tmp" \
 --dataset "codealpaca" \
 --tuning_method "prompt-tuning" \
 --batch_size 1 \
