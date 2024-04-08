@@ -16,5 +16,4 @@ CUDA_VISIBLE_DEVICES=0 python ../main.py \
 --tuning_method "prompt-tuning" \
 --batch_size 1 \
 --gradient_accumulation_steps 1 \
---do_train \
---use_wandb
+--do_train
